@@ -71,4 +71,4 @@ Selfiesta brings the joy of a photobooth to your browser — fun, simple, and in
 ## 📨 Contact
 Have feedback or ideas?
 
-📬 Email: [jheredmiguelrepublica14@gmail.com]
+📬 Email: jheredmiguelrepublica14@gmail.com
