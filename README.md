@@ -29,7 +29,7 @@
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/selfiesta.git
+git clone https://github.com/red-sakai/selfiesta.git
 cd selfiesta
 ```
 
