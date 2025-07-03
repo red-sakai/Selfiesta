@@ -45,7 +45,9 @@ Run the development server:
 npm run dev
 ```
 
-##📂 Project Structure
+---
+
+## 📂 Project Structure
 
 ```bash
 .
@@ -57,12 +59,16 @@ npm run dev
 └── README.md         # This file
 ```
 
-##🎯 Vision
+---
+
+## 🎯 Vision
 "Where every snapshot becomes a celebration."
 
 Selfiesta brings the joy of a photobooth to your browser — fun, simple, and instant.
 
-##📨 Contact
+---
+
+## 📨 Contact
 Have feedback or ideas?
 
 📬 Email: [jheredmiguelrepublica14@gmail.com]
