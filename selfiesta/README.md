@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📸 Selfiesta
 
-## Getting Started
+**Selfiesta** is a modern, stylish photo-taking app built using **Next.js** and **shadcn/ui**. Think of it like a virtual photobooth — perfect for capturing moments with flair and simplicity. Whether you’re at a virtual event, building a fun personal tool, or exploring camera-based web apps, Selfiesta is designed to deliver a smooth and delightful user experience.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+- 📷 Take photos using your webcam
+- 🎉 Clean and vibrant photobooth UI
+- 🖌️ Styled with **shadcn/ui** and Tailwind CSS
+- ⚡ Built on the robust **Next.js** framework
+- 💾 (Optional) Save or download photos locally
+- 🪄 Simple interactions and user-friendly controls
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** [shadcn/ui](https://ui.shadcn.dev/) + Tailwind CSS
+- **Language:** TypeScript/JSX
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/red-sakai/Selfiesta.git
+cd selfiesta
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+.
+├── components/       # Reusable UI components
+├── pages/            # Next.js page routing
+├── public/           # Static assets
+├── styles/           # Global and component styles
+├── app/              # (if using App Router)
+└── README.md         # This file
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Vision
+"Where every snapshot becomes a celebration."
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Selfiesta brings the joy of a photobooth to your browser — fun, simple, and instant.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📨 Contact
+Have feedback or ideas?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📬 Email: jheredmiguelrepublica14@gmail.com
