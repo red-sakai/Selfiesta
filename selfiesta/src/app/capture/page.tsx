@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 const Capture = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const audioRef = useRef<HTMLAudioElement>(null); // 1. Add audio ref
+  const audioRef = useRef<HTMLAudioElement>(null); // audio ref for sfx
   const [permission, setPermission] = useState<"pending" | "granted" | "denied">("pending");
   const [photo, setPhoto] = useState<string | null>(null);
   const router = useRouter();
@@ -114,7 +114,7 @@ const Capture = () => {
           )}
           <canvas ref={canvasRef} className="hidden" />
         </div>
-        <audio ref={audioRef} src="/camera shutter.mp3" preload="auto" /> {/* 3. Audio element */}
+        <audio ref={audioRef} src="/camera shutter.mp3" preload="auto" /> {/* audio element */}
         <p className="text-[#9B8DD2] font-bold text-center text-lg mb-4">
           Enable camera permissions so we can take your wonderful photo!<br />
           <span className="text-[#6B5CA5] font-semibold text-base block mt-2">

@@ -59,6 +59,12 @@ export default function Home() {
           <p className="text-lg font-semibold text-[#9B8DD2]">
             Selfiesta is your fun and easy-to-use photo booth app built for events, parties, and everyday moments. Take selfies straight from your browser!
           </p>
+          <Link
+            href="/capture"
+            className="inline-block mt-6 bg-gradient-to-r from-[#9B8DD2] to-[#6B5CA5] text-white rounded-full px-8 py-3 text-xl font-bold shadow-lg hover:scale-105 transition-transform"
+          >
+            Start Capturing
+          </Link>
         </div>
       </main>
     </div>
