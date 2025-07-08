@@ -45,7 +45,16 @@ const Finished = () => {
       {/* Finished Content */}
       <main className="flex flex-col md:flex-row items-center justify-center min-h-[70vh] px-4 py-8 gap-16">
         <div className="border-8 border-[#9B8DD2] w-[520px] h-[520px] flex items-center justify-center bg-white shadow-lg">
-          {photo && <img src={photo} alt="Captured" className="w-full h-full object-cover" />}
+          {photo && (
+            <Image
+              src={photo}
+              alt="Captured"
+              width={500}
+              height={500}
+              className="w-full h-full object-cover"
+              unoptimized
+            />
+          )}
         </div>
         <div className="flex flex-col items-center md:items-start justify-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#6B5CA5] mb-2 text-center md:text-left">
