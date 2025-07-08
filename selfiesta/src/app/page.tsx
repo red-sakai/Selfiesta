@@ -46,7 +46,7 @@ export default function Home() {
         {/* Left: Hand holding photos */}
         <div className="relative w-[80vw] max-w-[1000px] h-[60vw] max-h-[75vh] flex-shrink-0">
           <Image
-            src="/hand with photos.png"
+            src="/hand with photos.PNG"
             alt="Hand holding photos"
             fill
             style={{ objectFit: "contain" }}
