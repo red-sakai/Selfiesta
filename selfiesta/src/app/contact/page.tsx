@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
-const contact = () => {
+const Contact = () => {
     const [form, setForm] = useState({ email: "", message: "" });
     const [status, setStatus] = useState("");
 
@@ -70,7 +70,7 @@ const contact = () => {
         <h1 className="text-4xl md:text-5xl font-extrabold text-[#6B5CA5] mt-8 mb-2 text-center">Send me an email!</h1>
         <p className="text-lg font-semibold text-[#9B8DD2] text-center mb-6">
           Got questions or feedback?<br />
-          <span className="font-bold">I'd love to hear from you! Drop me an email<br />and I'll get back to you as soon as possible. - Jhered</span>
+          <span className="font-bold">I&apos;d love to hear from you! Drop me an email<br />and I&apos;ll get back to you as soon as possible. - Jhered</span>
         </p>
         <form onSubmit={handleSubmit} className="w-full max-w-3xl flex flex-col gap-6">
           <input
@@ -104,4 +104,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

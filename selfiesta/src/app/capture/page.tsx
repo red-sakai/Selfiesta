@@ -11,7 +11,6 @@ const Capture = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const audioRef = useRef<HTMLAudioElement>(null); // audio ref for sfx
   const [permission, setPermission] = useState<"pending" | "granted" | "denied">("pending");
-  const [photo, setPhoto] = useState<string | null>(null);
   const router = useRouter();
 
   useEffect(() => {
